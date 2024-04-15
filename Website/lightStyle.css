@@ -60,10 +60,111 @@ header {
     margin-bottom: 3vw;
 }
 
+.showreelMain {
+    margin-bottom: 3vw;
+}
+
 .slidereelImg {
     text-align: center;
 }
 
 .slidereelImg img {
     width: 60%;
+}
+
+
+
+.productSaleTable {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productSaleContainer {
+    width: 50%;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    margin-right: 5px;
+}
+
+.productSaleImg img {
+    width: 50%;
+}
+
+.productSaleDesc h3 {
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.productSaleDesc h3 s {
+    font-weight: 400;
+    color: red;
+    font-size: 20px;
+}
+
+.productSaleContainer {
+    width: 50%;
+    text-align: center;
+}
+
+.limitedTimeText {
+    text-align: center;
+}
+
+.footer{
+    background:#262626;
+    padding:30px 0px;
+    margin-top: 25px;
+    text-align:center;
+}
+
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color: #FFBC10;
+    font-size:0.8em;
+}
+
+.footer .row a{
+    text-decoration:none;
+    color:#FFBC10;
+    transition:0.5s;
+}
+
+.footer .row a:hover{
+    color:#fff;
+}
+
+.footer .row ul{
+    width:100%;
+}
+
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+
+@media (max-width:720px){
+    .footer{
+        text-align:left;
+        padding:5%;
+    }
+    .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+    }
+    .footer .row a i{
+        margin:0% 3%;
+    }
 }
