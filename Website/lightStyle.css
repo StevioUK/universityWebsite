@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+:root {
+    /* Setting up all my colours I will be using throughout the website as well as the font to be used */
+    --backgroundBlack: #262626;
+    --brandYellow: #FFBC10;
+    font-family: 'Josefin Sans';
+}
+
+/* Set all text to be white throughout the entire site */
+html {
+    color: rgb(15, 15, 15);
+}
+
+/* Remove default margin */
+body {
+    margin: 0px;
+}
+
+/* Override the default blue colour on a tags */
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Set the header to become a 'flexbox' which allows me to create a navigation bar with ease */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--backgroundBlack);
+}
+
+/* Seperating the two divs to create a space between the two + adjusting logo size*/
+
+.logoDiv img {
+    height: 8vw;
+}
+
+.contentDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contentDiv a {
+    color: white;
+    padding-right: 3vw;
+    font-size: 20px;
+}
+
+/* Setting up sliding text underhead the header */
+
+.headerOfferDiv {
+    background-color: var(--brandYellow);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 3vw;
+}
+
+.slidereelImg {
+    text-align: center;
+}
+
+.slidereelImg img {
+    width: 60%;
+}
