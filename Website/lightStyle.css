@@ -168,3 +168,91 @@ header {
         margin:0% 3%;
     }
 }
+
+/* Used in CSS for text boxes used throughout the website */
+
+.textBodyContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--backgroundBlack);
+    margin: 50px auto auto auto;
+    max-width: 1750px;
+}
+
+.textBody {
+    margin-left: 50px;
+    height: auto;
+    color: var(--white);
+    color: white;
+    margin-right: 14vw;
+}
+
+.textBody h2 {
+    margin: 0%;
+    font-size: 1vw;
+    min-height: 250px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+
+.textBody h1 {
+    font-size: 3vw;
+    margin-bottom: 25px;
+    color: var(--brandYellow);
+}
+
+.textBodyImg img{
+    max-width: 250px;
+}
+
+/* One off changes in CSS for image */
+.helpImg img {
+    width: 25vw;
+}
+
+/* CSS for the grid used in shop page */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 items horizontally */
+    grid-template-rows: repeat(5, auto); /* 5 items vertically */
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Styling each grid item */
+.grid-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Styling the image */
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Styling name, price, and description */
+.product-details {
+    margin-top: 10px;
+}
+
+/* Styling the name */
+.product-name {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling the price */
+.product-price {
+    color: #555;
+}
+
+/* Styling the description */
+.product-description {
+    color: #777;
+}
