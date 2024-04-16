@@ -1,5 +1,10 @@
+<!-- I'm starting with a standard HTML5 document structure -->
+
 <!DOCTYPE html>
 <html>
+
+    <!-- Inside the head section, I'm specifying the character encoding, setting the viewport for responsive design, and linking to an external stylesheet -->
+    
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,41 +14,52 @@
         <link rel="stylesheet" href="lightStyle.css">
     </head>
 
-
-    <header>
-        <div class="logoDiv">
-            <img src="media/branded/banner.png" alt="CosyCotton UK">
-        </div>
-
-        <div class="contentDiv">
-            <a href="FILLTHISOUT">About Us</a>
-            <a href="FILLTHISOUT">Sweatshirts</a>
-            <a href="FILLTHISOUT">Accessories</a>
-            <a href="FILLTHISOUT">Our Materials</a>
-            <a href="FILLTHISOUT">Help</a>
-        </div>
-    </header>
-
-    <div class="headerOfferDiv">
-        <a href="FILLTHISOUT">50% Off All Clothing At Checkout for Students! Don't miss out. Click Now!</a>
-    </div>
+    <!-- The body section contains the main content of the webpage -->
 
     <body>
 
+        <!-- The header section includes the logo and navigation links -->
+
+        <header>
+            <div class="logoDiv">
+                <img src="media/branded/banner.png" alt="CosyCotton UK">
+            </div>
+    
+            <div class="contentDiv">
+                <a href="about.htm">About Us</a>
+                <a href="shop.htm">Sweatshirts</a>
+                <a href="accessories.htm">Accessories</a>
+                <a href="materials.htm">Our Materials</a>
+                <a href="help.htm">Help</a>
+            </div>
+        </header>
+
+        <!-- The headerOfferDiv displays a promotional offer -->
+
+        <div class="headerOfferDiv">
+            <a href="FILLTHISOUT">50% Off All Clothing At Checkout for Students! Don't miss out. Click Now!</a>
+        </div>
+
+        <!-- The showreelMain section displays a promotional image -->
+
         <div class="showreelMain">
             <div class="slidereelImg">
-                <a><img src="media/products/promotion/pexels-diva-plavalaguna-6150581.jpg"></a>
+                <a><img src="media/products/promotion/pexels-diva-plavalaguna-6150581.jpg" alt="promotionImg"></a>
                 <div class="imgText">50% Off all Clothing Items For Limited Time</div>
             </div>
         </div>
 
+        <!-- The limitedTimeText section displays a heading for a limited-time offer -->
+
         <h1 class="limitedTimeText">Limited Time Offer!</h1>
+
+        <!-- The productSaleTable section displays discounted products -->
 
         <div class="productSaleTable">
             <div class="productSaleContainer">
 
                 <div class="productSaleImg">
-                    <img src="media/products/sweatshirts/pexels-monstera-production-6311449.jpg">
+                    <img src="media/products/sweatshirts/pexels-monstera-production-6311449.jpg" alt="winter white sweatshirt">
                 </div>
 
                 <div class="productSaleDesc">
@@ -55,7 +71,7 @@
             <div class="productSaleContainer">
                 
                 <div class="productSaleImg">
-                    <img src="media/products/sweatshirts/pexels-lalu-fatoni-724499.jpg">
+                    <img src="media/products/sweatshirts/pexels-lalu-fatoni-724499.jpg" alt="Midnight black jumper">
                 </div>
 
                 <div class="productSaleDesc">
@@ -67,7 +83,7 @@
             <div class="productSaleContainer">
                 
                 <div class="productSaleImg">
-                    <img src="media/products/sweatshirts/pexels-photo-1183266.jpeg">
+                    <img src="media/products/sweatshirts/pexels-photo-1183266.jpeg" alt="yellow hoodie">
                 </div>
 
                 <div class="productSaleDesc">
@@ -79,25 +95,25 @@
 
         </div>
 
-        <!-- <script src="" async defer></script> -->
-    </body>
+        <!-- The footer section contains navigation links and copyright information -->
 
-
-    <footer>
-        <div class="footer">    
-            <div class="row">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Our Materials</a></li>
-                    <li><a href="#">Help</a></li>
-                </ul>
+        <footer>
+            <div class="footer">    
+                <div class="row">
+                    <ul>
+                        <li><a href="index.htm">Home</a></li>
+                        <li><a href="about.htm">About Us</a></li>
+                        <li><a href="shop.htm">Sweatshirts</a></li>
+                        <li><a href="materials.htm">Our Materials</a></li>
+                        <li><a href="help.htm">Help</a></li>
+                    </ul>
+                </div>
+            
+                <div class="row">
+                    All media and images are copyrighted by their respective artists. CosyCotton UK Trademark Ltd
+                </div>
             </div>
-        
-        <div class="row">
-            All media and images are copyrighted by their respective artists. CosyCotton UK Trademark Ltd
-        </div>
-    </footer>
+        </footer>
+    </body>
 
 </html>

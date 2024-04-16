@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
-
 :root {
     /* Setting up all my colours I will be using throughout the website as well as the font to be used */
     --backgroundBlack: #262626;
@@ -19,7 +18,6 @@ body {
 }
 
 /* Override the default blue colour on a tags */
-
 a {
     text-decoration: none;
     color: black;
@@ -33,7 +31,6 @@ header {
 }
 
 /* Seperating the two divs to create a space between the two + adjusting logo size*/
-
 .logoDiv img {
     height: 8vw;
 }
@@ -51,7 +48,6 @@ header {
 }
 
 /* Setting up sliding text underhead the header */
-
 .headerOfferDiv {
     background-color: var(--brandYellow);
     text-align: center;
@@ -71,8 +67,6 @@ header {
 .slidereelImg img {
     width: 60%;
 }
-
-
 
 .productSaleTable {
     margin-left: 5vw;
@@ -170,7 +164,6 @@ header {
 }
 
 /* Used in CSS for text boxes used throughout the website */
-
 .textBodyContainer {
     display: flex;
     justify-content: space-between;
@@ -182,7 +175,6 @@ header {
 .textBody {
     margin-left: 50px;
     height: auto;
-    color: var(--white);
     color: white;
     margin-right: 14vw;
 }
@@ -194,7 +186,6 @@ header {
     max-height: 300px;
     overflow: hidden;
 }
-
 
 .textBody h1 {
     font-size: 3vw;
@@ -212,7 +203,6 @@ header {
 }
 
 /* CSS for the grid used in shop page */
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* 5 items horizontally */
